@@ -64,7 +64,7 @@ const FooterSection = () => {
             <h3 className="text-lg font-semibold mb-5">Contact</h3>
             <ul className="space-y-4 text-sm text-gray-400">
               <li className="flex items-center gap-3">
-                <FiMail className="text-sky-400" /> rameezalib7to4@gmail.com
+                <FiMail className="text-sky-400" /> rameezali7to4@gmail.com
               </li>
               <li className="flex items-center gap-3">
                 <FiMapPin className="text-sky-400" /> Pakistan
@@ -90,7 +90,7 @@ const FooterSection = () => {
 
         {/* Bottom Footer */}
         <div className="mt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-3">
-          <p>© 2024 Ramiz Hassan. All rights reserved</p>
+          <p>© {new Date().getFullYear()} Ramiz Hassan. All rights reserved</p>
           <div className="flex gap-5">
             {['Terms & Condition', 'Privacy Policy', 'Contact Us'].map(
               (item, i) => (
