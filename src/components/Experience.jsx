@@ -15,13 +15,13 @@ const experiences = [
   },
   {
     title: "Freelance Web Developer",
-    years: "2023 – Present",
+    years: "2025 – Present",
     description:
       "Delivered multiple client projects, focusing on clean code, UI/UX design, and optimized performance for modern web applications.",
   },
   {
     title: "Open-Source Contributor",
-    years: "2023 – Present",
+    years: "2025 – Present",
     description:
       "Contributed to React and Node.js open-source projects, improving features and fixing bugs while following best practices.",
   },
