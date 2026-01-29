@@ -13,7 +13,7 @@ const experienceList = [
     {
         label: "experience",
         company: "ModernTech",
-        duration: "3 Years",
+        duration: "2 Years",
         role: "Full-Stack Web Developer",
         description:
             "Built full-stack web applications using the MERN stack, integrating frontend React components with Node.js/Express backend and MongoDB database for scalable solutions.",

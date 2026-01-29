@@ -19,25 +19,25 @@ const App = () => {
     <div className='bg-[#050b12] '>
       <Navbar />
       <Element name="home">
-      <Hero />
+        <Hero />
       </Element>
       <Element name="services">
-      <Services />
+        <Services />
       </Element>
       <Element name="about">
-      <SkillsSection />
+        <SkillsSection />
       </Element>
       <ServiceSection />
       <Experience />
       <ProfessionalExperience />
       <BrandGrid />
       <Element name="portfolio">
-      <PortfolioSection />
+        <PortfolioSection />
       </Element>
       <SkillHighlightSection />
       <TestimonialGrid />
       <Element name="contact">
-      <Contact />
+        <Contact />
       </Element>
       <Footer />
     </div>
