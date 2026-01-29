@@ -6,7 +6,6 @@ import SkillsSection from './components/SkillsSection'
 import ServiceSection from './components/ServiceSection'
 import Experience from './components/Experience'
 import ProfessionalExperience from './components/ProfessionalExperience'
-import BrandGrid from './components/BrandGrid'
 import PortfolioSection from './components/PortfolioSection'
 import SkillHighlightSection from './components/SkillHighlightSection'
 import TestimonialGrid from './components/TestimonialGrid'
@@ -30,7 +29,6 @@ const App = () => {
       <ServiceSection />
       <Experience />
       <ProfessionalExperience />
-      <BrandGrid />
       <Element name="portfolio">
         <PortfolioSection />
       </Element>
