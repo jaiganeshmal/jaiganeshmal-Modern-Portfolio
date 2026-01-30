@@ -8,7 +8,6 @@ import Experience from './components/Experience'
 import ProfessionalExperience from './components/ProfessionalExperience'
 import PortfolioSection from './components/PortfolioSection'
 import SkillHighlightSection from './components/SkillHighlightSection'
-import TestimonialGrid from './components/TestimonialGrid'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { Element } from 'react-scroll'
@@ -33,7 +32,6 @@ const App = () => {
         <PortfolioSection />
       </Element>
       <SkillHighlightSection />
-      <TestimonialGrid />
       <Element name="contact">
         <Contact />
       </Element>
