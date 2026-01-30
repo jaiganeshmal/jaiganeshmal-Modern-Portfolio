@@ -4,21 +4,21 @@ import { FiLayers, FiGrid, FiCamera } from 'react-icons/fi';
 const skills = [
   {
     title: 'UI/Visual Design',
-    completed: '21 Projects Done',
+    completed: '5 Projects Done',
     description:
       'Crafted modern and intuitive UI designs, focusing on user experience and responsive layouts for web and mobile applications.',
     icon: <FiLayers size={24} />,
   },
   {
     title: 'Web & App Development',
-    completed: '15 Projects Done',
+    completed: '5 Projects Done',
     description:
       'Built full-stack web applications using MERN stack and modern frontend frameworks, ensuring scalable and high-performance solutions.',
     icon: <FiGrid size={24} />,
   },
   {
     title: 'Motion Design',
-    completed: '10 Projects Done',
+    completed: '5 Projects Done',
     description:
       'Created engaging animations and micro-interactions to enhance user experience and interface interactivity.',
     icon: <FiCamera size={24} />,
