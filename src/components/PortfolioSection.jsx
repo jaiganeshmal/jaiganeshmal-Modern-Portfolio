@@ -5,27 +5,27 @@ import { FiArrowUpRight } from 'react-icons/fi';
 const portfolioItems = [
   {
     img: assets.project1,
-    title: 'Real Estate Website',
+    title: 'MyPaperlessOffice',
     category: 'Web Design & Development',
-    link: 'https://jk-estate.netlify.app/',
+    // link: 'https://jk-estate.netlify.app/',
   },
   {
     img: assets.project2,
-    title: 'De Solutions Company Website',
+    title: 'InnovateNow',
     category: 'Full-Stack MERN',
-    link: 'https://desolutions.netlify.app/',
+    // link: 'https://desolutions.netlify.app/',
   },
   {
     img: assets.project3,
-    title: 'Event Management Website',
+    title: 'Noteit',
     category: 'React.js / UI/UX',
-    link: 'https://event-managmen.netlify.app/',
+    // link: 'https://event-managmen.netlify.app/',
   },
   {
     img: assets.project4,
-    title: 'Techzone Manageent System',
+    title: 'Spotify Clone',
     category: 'React.js Admin Panel responsive for desktop ',
-    link: 'https://techzone-adminpanel.netlify.app/',
+    // link: 'https://techzone-adminpanel.netlify.app/',
   },
 ];
 
@@ -68,9 +68,9 @@ const PortfolioSection = () => {
                 <p className="text-lg font-semibold mb-1">{item.title}</p>
                 <p className="text-sm text-gray-400">{item.category}</p>
               </div>
-              <a href={item.link} target='_blank' className="p-3 bg-sky-500/20 rounded-full text-sky-400 hover:bg-sky-500 hover:text-white transition-all duration-300">
+              <button className="p-3 bg-sky-500/20 rounded-full text-sky-400 hover:bg-sky-500 hover:text-white transition-all duration-300">
                 <FiArrowUpRight size={18} />
-              </a>
+              </button>
             </div>
           </div>
         ))}
