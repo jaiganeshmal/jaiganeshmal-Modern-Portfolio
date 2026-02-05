@@ -5,55 +5,55 @@ import { FiArrowUpRight, FiExternalLink } from "react-icons/fi";
 /* ===================== DATA ===================== */
 const portfolioItems = [
   {
-    title: "MyPaperlessOffice",
+    title: "Estate Website",
     category: "Web Design & Development",
     images: [
-      assets.project1,
-      assets.project2,
-      assets.project3,
+      assets.es1,
+      assets.es2,
+      assets.es3,
     ],
     skills: ["React", "Tailwind CSS", "Node.js"],
     description:
-      "A paperless document management system designed to simplify office workflows and improve productivity.",
+      "A modern real estate website showcasing properties with a clean, responsive, and user-friendly design.",
     live: "#",
   },
   {
-    title: "InnovateNow",
+    title: "De Solutions Company",
     category: "Full-Stack MERN",
     images: [
-      assets.project2,
-      assets.project1,
-      assets.project3,
+      assets.ds1,
+      assets.ds2,
+      assets.ds3,
     ],
     skills: ["MongoDB", "Express", "React", "Node.js"],
     description:
-      "A MERN stack application built for startups to collaborate, innovate, and manage projects efficiently.",
+      "A full-stack MERN website built for a software company to present services and projects professionally.",
     live: "#",
   },
   {
-    title: "Noteit",
+    title: "UC Event Managment Website",
     category: "React.js / UI UX",
     images: [
-      assets.project3,
-      assets.project2,
-      assets.project3,
+      assets.uc1,
+      assets.uc2,
+      assets.uc3,
     ],
     skills: ["React", "Tailwind", "UX Design"],
     description:
-      "A modern note-taking application focused on clean UI, usability, and fast performance.",
+      "A sleek event management website designed to display and manage university events efficiently.",
     live: "#",
   },
   {
-    title: "Spotify Clone",
+    title: "Techzone Learning Admin Panel",
     category: "React.js Admin Panel",
     images: [
-      assets.project4,
-      assets.project1,
-      assets.project3,
+      assets.tz1,
+      assets.tz2,
+      assets.tz3,
     ],
     skills: ["React", "API Integration", "Responsive Design"],
     description:
-      "A responsive Spotify admin panel clone designed for desktop with smooth UI interactions.",
+      "A responsive admin dashboard for managing courses, users, and learning content effectively.",
     live: "#",
   },
 ];
@@ -131,7 +131,7 @@ const PortfolioSection = () => {
           >
             <div
               onClick={(e) => e.stopPropagation()}
-              className="max-w-3xl w-full max-h-[95vh] bg-gradient-to-br from-[#0B1A26]/90 to-[#07131D]/90
+              className="max-w-3xl w-full max-h-[98vh] bg-gradient-to-br from-[#0B1A26]/90 to-[#07131D]/90
               border border-white/10 rounded-3xl overflow-hidden shadow-2xl"
             >
               {/* Main Image */}
@@ -173,7 +173,7 @@ const PortfolioSection = () => {
               </div>
 
               {/* Content */}
-              <div className="px-6 py-4 ">
+              <div className="p-6 ">
                 <h3 className="text-2xl md:text-3xl font-bold mb-1">
                   {selectedProject.title}
                 </h3>
