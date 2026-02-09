@@ -15,7 +15,7 @@ const portfolioItems = [
     skills: ["React", "Tailwind CSS", "Node.js"],
     description:
       "A modern real estate website showcasing properties with a clean, responsive, and user-friendly design.",
-    live: "#",
+    live: "https://jk-estate.netlify.app/",
   },
   {
     title: "De Solutions Company",
@@ -28,7 +28,7 @@ const portfolioItems = [
     skills: ["MongoDB", "Express", "React", "Node.js"],
     description:
       "A full-stack MERN website built for a software company to present services and projects professionally.",
-    live: "#",
+    live: "https://desolutions.netlify.app/",
   },
   {
     title: "UC Event Managment Website",
@@ -41,7 +41,7 @@ const portfolioItems = [
     skills: ["React", "Tailwind", "UX Design"],
     description:
       "A sleek event management website designed to display and manage university events efficiently.",
-    live: "#",
+    live: "https://event-managmen.netlify.app/",
   },
   {
     title: "Techzone Learning Admin Panel",
@@ -54,7 +54,7 @@ const portfolioItems = [
     skills: ["React", "API Integration", "Responsive Design"],
     description:
       "A responsive admin dashboard for managing courses, users, and learning content effectively.",
-    live: "#",
+    live: "https://techzone-adminpanel.netlify.app/",
   },
 ];
 
